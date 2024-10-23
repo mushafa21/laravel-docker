@@ -1,23 +1,23 @@
-Tutorial Jalankan docker
-NOTE : Pastikan Composer dan npm sudah terinstall, .env juga disesuaikan
+Tutorial Jalankan docker<br/>
+NOTE : Pastikan Composer dan npm sudah terinstall, .env juga disesuaikan<br/><br/>
 
-jalankan : 
+jalankan : <br/><br/>
 
-composer install
-composer update
+composer install<br/>
+composer update<br/><br/>
 
-/// build docker
-docker-compose up --build
-/// aplikasi dapat diakses di localhost:8000 dan phpmyadmin di localhost:8080, setup database di phpmyadmin jika perlu
+/// build docker<br/>
+docker-compose up --build<br/>
+/// aplikasi dapat diakses di localhost:8000 dan phpmyadmin di localhost:8080, setup database di phpmyadmin jika perlu<br/><br/>
 
-php artisan vendor:publish --tag=admin-core
-php artisan migrate --seed --seeder=AdminCoreSeeder
-php artisan storage:link
-npm install
-npm run dev
+php artisan vendor:publish --tag=admin-core<br/>
+php artisan migrate --seed --seeder=AdminCoreSeeder<br/>
+php artisan storage:link<br/>
+npm install<br/>
+npm run dev<br/><br/>
 
 
 
-Login Superadmin
-Email - superadmin@example.com
-Password - password
+Login Superadmin<br/>
+Email - superadmin@example.com<br/>
+Password - password<br/>
